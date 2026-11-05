@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/(.*)", "destination": { "service": "geopolitics" } }
+  ],
+  "services": {
+    "geopolitics": {
+      "root": ".",
+      "entrypoint": "index:app",
+      "functions": {
+        "index.py": { "maxDuration": 60 }
+      }
+    }
+  },
+  "crons": [
+    { "path": "/api/cron/process-emails", "schedule": "0 1 * * *" }
+  ]
+}

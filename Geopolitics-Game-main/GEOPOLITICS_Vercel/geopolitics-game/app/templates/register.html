@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Create account · GEOPOLITICS{% endblock %}
+{% block content %}
+<form class="card narrow" method="post" novalidate>
+  <h2>Create account</h2>
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Username <input name="username" value="{{ username }}" autocomplete="username" required minlength="3" maxlength="20" pattern="[A-Za-z0-9_]+" autofocus></label>
+  <label>E-mail <input name="email" type="email" value="{{ email }}" autocomplete="email" required></label>
+  <label>Password <input name="password" type="password" autocomplete="new-password" required minlength="8"></label>
+  <label>Confirm password <input name="confirm" type="password" autocomplete="new-password" required></label>
+  <p class="muted small">Username: 3–20 letters, numbers or underscores. Password: 8+ characters with a letter and a number. We send a confirmation link to your e-mail.</p>
+  <button class="btn primary block" type="submit">Create account</button>
+  <p class="muted small">Already registered? <a href="{{ url_for('auth.login') }}">Log in</a></p>
+</form>
+{% endblock %}

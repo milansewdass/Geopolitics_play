@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<form class="card narrow" method="post">
+  <h2>Reset password</h2>
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>E-mail <input name="email" type="email" required autofocus></label>
+  <button class="btn primary block" type="submit">Send reset link</button>
+</form>
+{% endblock %}

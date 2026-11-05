@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% set active = 'intel' %}
+{% block title %}Intelligence · GEOPOLITICS{% endblock %}
+{% block content %}
+<div id="app" data-mode="{{ mode }}" data-ref="{{ ref }}" data-code="{{ code }}">
+  <h1>Intelligence</h1>
+  <p class="muted" id="sub">Strategic overview for the active game.</p>
+  <div class="two">
+    <section class="card"><div class="eyebrow">Soldier strength</div><div id="bars"><div class="skeleton">Loading…</div></div></section>
+    <section class="card"><div class="eyebrow">Nation intelligence</div><div id="nations" class="roster"></div></section>
+  </div>
+  <section class="card"><div class="eyebrow">Ten-nation status</div><div style="overflow:auto"><table id="status"></table></div></section>
+  <div class="two">
+    <section class="card"><div class="eyebrow">Turn &amp; event feed with NPC rationale</div><div id="feed" class="feed" style="max-height:420px"></div></section>
+    <section class="card"><div class="eyebrow">Battle history &amp; replay</div><div id="battles" class="roster"><div class="skeleton">Loading…</div></div></section>
+  </div>
+  <div id="replay" class="card battle" hidden></div>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script src="{{ url_for('static', filename='js/intelligence.js') }}"></script>{% endblock %}

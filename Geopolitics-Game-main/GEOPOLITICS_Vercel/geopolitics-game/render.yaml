@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: geopolitics
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn run:app --bind 0.0.0.0:$PORT --workers 1 --threads 8
+    healthCheckPath: /healthz
+    envVars:
+      - {key: SECRET_KEY, generateValue: true}
+      - {key: MONGO_URI, sync: false}
+      - {key: MONGO_DB_NAME, value: geopolitics}
+      - {key: PUBLIC_BASE_URL, sync: false}
+      - {key: ANTHROPIC_API_KEY, sync: false}
+      - {key: RESEND_API_KEY, sync: false}
+      - {key: SMTP_HOST, sync: false}
+      - {key: SMTP_PORT, sync: false}
+      - {key: SMTP_USER, sync: false}
+      - {key: SMTP_PASS, sync: false}
+      - {key: EMAIL_FROM, sync: false}
+      - {key: ADMIN_EMAIL, value: milan.sewdass@gmail.com}
+      - {key: COOKIE_SECURE, value: "1"}
+      - {key: PYTHON_VERSION, value: "3.12.7"}

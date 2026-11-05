@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% set active = 'war' %}
+{% block title %}{{ 'Watching' if mode == 'watch' else 'War Room' }} · GEOPOLITICS{% endblock %}
+{% block content %}
+<div id="app" data-mode="{{ mode }}" data-ref="{{ ref }}" data-code="{{ code }}">
+  <div id="banner" class="banner" hidden></div>
+  <div id="battle" class="card battle" hidden></div>
+  <div class="wr">
+    <section>
+      <div class="card mapcard">
+        <div class="maphead">
+          <div class="eyebrow">World map / <span id="nationcount">10</span> nations</div>
+          <div class="row">
+            <span class="eyebrow" id="roundlabel"></span>
+            <div class="seg" role="group" aria-label="View">
+              <button type="button" id="vmap" aria-pressed="true">Map</button>
+              <button type="button" id="vgrid" aria-pressed="false">Tactical grid</button>
+            </div>
+          </div>
+        </div>
+        <div id="mapwrap"></div>
+        <div id="gridwrap" class="grid" hidden></div>
+        <div id="legend" class="legend"></div>
+      </div>
+      <div class="card" id="feedcard"><div class="row"><h3 style="margin:0">Event feed</h3>
+        <button id="speed" class="btn small speed" type="button" aria-pressed="false">⏩ Fast-forward playback</button></div>
+        <div id="feed" class="feed" aria-live="polite"></div></div>
+    </section>
+    <aside>
+      <div class="card cmd" id="cmd"></div>
+      <div class="card roster"><div class="eyebrow">Nations</div><div id="roster"></div></div>
+      <div class="card" id="commcard"><div class="eyebrow">Commentary</div><div id="commentary" class="commentary"></div></div>
+      <div class="card" id="sharecard" hidden><div class="eyebrow">Spectator link</div>
+        <p class="small muted" style="margin:6px 0">Anyone with this link can watch, but not play.</p>
+        <input id="shareurl" readonly aria-label="Spectator link"></div>
+    </aside>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Admin console · GEOPOLITICS{% endblock %}
+{% block content %}
+<h1>Admin console</h1>
+<div id="ovr" class="stats4"></div>
+<div class="tabs" role="tablist" id="tabs">
+  <button role="tab" data-t="users" aria-selected="true">Users</button>
+  <button role="tab" data-t="games" aria-selected="false">Games</button>
+  <button role="tab" data-t="emails" aria-selected="false">E-mail delivery</button>
+  <button role="tab" data-t="errors" aria-selected="false">Errors</button>
+  <button role="tab" data-t="audit" aria-selected="false">Audit log</button>
+  <button role="tab" data-t="system" aria-selected="false">System</button>
+</div>
+<div class="card" id="panel"></div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Notifications · GEOPOLITICS{% endblock %}
+{% block content %}
+<h1>Notification centre</h1>
+<p class="muted">Choose which optional e-mails you receive. Account e-mails (confirmation, password reset) are always sent when you request them.</p>
+<div class="two">
+  <section class="card" id="prefs"><div class="skeleton">Loading…</div></section>
+  <section class="card"><div class="eyebrow">Recent deliveries</div><div id="deliveries" style="margin-top:8px"></div></section>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>{% endblock %}

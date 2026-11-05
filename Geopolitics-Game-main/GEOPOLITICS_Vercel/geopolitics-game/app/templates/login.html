@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Log in · GEOPOLITICS{% endblock %}
+{% block content %}
+<form class="card narrow" method="post" novalidate>
+  <h2>Log in</h2>
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Username or e-mail <input name="username" value="{{ username }}" autocomplete="username" required autofocus></label>
+  <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+  <button class="btn primary block" type="submit">Log in</button>
+  <p class="muted small"><a href="{{ url_for('auth.forgot') }}">Forgot your password?</a> · New here? <a href="{{ url_for('auth.register') }}">Create an account</a></p>
+</form>
+{% endblock %}

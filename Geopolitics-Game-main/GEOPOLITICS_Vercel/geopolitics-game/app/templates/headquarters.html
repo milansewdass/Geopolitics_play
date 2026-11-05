@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% set active = 'hq' %}
+{% block title %}Headquarters · GEOPOLITICS{% endblock %}
+{% block content %}
+<h1>Headquarters</h1>
+<p class="muted">Manage campaigns and resume an existing game.</p>
+{% if g.user and not g.user.email_verified %}
+<div class="banner info">Please confirm your e-mail address ({{ g.user.email }}).
+  <form method="post" action="{{ url_for('auth.resend_verification') }}" class="inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="link gold" type="submit">Send the link again</button></form></div>
+{% endif %}
+<div id="hqstats" class="stats4"></div>
+<div class="eyebrow">Your campaigns</div>
+<div id="camps" style="margin-top:8px"><div class="skeleton">Loading campaigns…</div></div>
+<div class="card" style="margin-top:18px"><h3>Career record</h3><div id="career" class="stats4"></div></div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script src="{{ url_for('static', filename='js/headquarters.js') }}"></script>{% endblock %}

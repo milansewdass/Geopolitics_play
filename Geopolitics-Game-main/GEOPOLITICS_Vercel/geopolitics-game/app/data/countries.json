@@ -1,0 +1,991 @@
+{
+ "source": "Worldometers (UN World Population Prospects 2024 Revision), 2026 column",
+ "retrieved": "2026-10-28",
+ "url": "https://www.worldometers.info/world-population/population-by-country/",
+ "nations": [
+  {
+   "code": "AF",
+   "name": "Afghanistan",
+   "population": 45047069,
+   "flag": "🇦🇫"
+  },
+  {
+   "code": "AL",
+   "name": "Albania",
+   "population": 2751025,
+   "flag": "🇦🇱"
+  },
+  {
+   "code": "DZ",
+   "name": "Algeria",
+   "population": 48028334,
+   "flag": "🇩🇿"
+  },
+  {
+   "code": "AO",
+   "name": "Angola",
+   "population": 40215179,
+   "flag": "🇦🇴"
+  },
+  {
+   "code": "AR",
+   "name": "Argentina",
+   "population": 46003734,
+   "flag": "🇦🇷"
+  },
+  {
+   "code": "AM",
+   "name": "Armenia",
+   "population": 2930915,
+   "flag": "🇦🇲"
+  },
+  {
+   "code": "AU",
+   "name": "Australia",
+   "population": 27227096,
+   "flag": "🇦🇺"
+  },
+  {
+   "code": "AT",
+   "name": "Austria",
+   "population": 9107266,
+   "flag": "🇦🇹"
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaijan",
+   "population": 10454855,
+   "flag": "🇦🇿"
+  },
+  {
+   "code": "BS",
+   "name": "Bahamas",
+   "population": 404628,
+   "flag": "🇧🇸"
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh",
+   "population": 177818044,
+   "flag": "🇧🇩"
+  },
+  {
+   "code": "BY",
+   "name": "Belarus",
+   "population": 8937018,
+   "flag": "🇧🇾"
+  },
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "population": 11774642,
+   "flag": "🇧🇪"
+  },
+  {
+   "code": "BZ",
+   "name": "Belize",
+   "population": 428644,
+   "flag": "🇧🇿"
+  },
+  {
+   "code": "BJ",
+   "name": "Benin",
+   "population": 15170419,
+   "flag": "🇧🇯"
+  },
+  {
+   "code": "BT",
+   "name": "Bhutan",
+   "population": 802214,
+   "flag": "🇧🇹"
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia",
+   "population": 12749291,
+   "flag": "🇧🇴"
+  },
+  {
+   "code": "BA",
+   "name": "Bosnia and Herzegovina",
+   "population": 3114242,
+   "flag": "🇧🇦"
+  },
+  {
+   "code": "BW",
+   "name": "Botswana",
+   "population": 2603388,
+   "flag": "🇧🇼"
+  },
+  {
+   "code": "BR",
+   "name": "Brazil",
+   "population": 213562666,
+   "flag": "🇧🇷"
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria",
+   "population": 6667659,
+   "flag": "🇧🇬"
+  },
+  {
+   "code": "BF",
+   "name": "Burkina Faso",
+   "population": 24601700,
+   "flag": "🇧🇫"
+  },
+  {
+   "code": "BI",
+   "name": "Burundi",
+   "population": 14729157,
+   "flag": "🇧🇮"
+  },
+  {
+   "code": "KH",
+   "name": "Cambodia",
+   "population": 18051219,
+   "flag": "🇰🇭"
+  },
+  {
+   "code": "CM",
+   "name": "Cameroon",
+   "population": 30640817,
+   "flag": "🇨🇲"
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "population": 40467728,
+   "flag": "🇨🇦"
+  },
+  {
+   "code": "CF",
+   "name": "Central African Republic",
+   "population": 5698984,
+   "flag": "🇨🇫"
+  },
+  {
+   "code": "TD",
+   "name": "Chad",
+   "population": 21560380,
+   "flag": "🇹🇩"
+  },
+  {
+   "code": "CL",
+   "name": "Chile",
+   "population": 19945850,
+   "flag": "🇨🇱"
+  },
+  {
+   "code": "CN",
+   "name": "China",
+   "population": 1412914089,
+   "flag": "🇨🇳"
+  },
+  {
+   "code": "CO",
+   "name": "Colombia",
+   "population": 53936226,
+   "flag": "🇨🇴"
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica",
+   "population": 5174789,
+   "flag": "🇨🇷"
+  },
+  {
+   "code": "HR",
+   "name": "Croatia",
+   "population": 3822345,
+   "flag": "🇭🇷"
+  },
+  {
+   "code": "CU",
+   "name": "Cuba",
+   "population": 10892659,
+   "flag": "🇨🇺"
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus",
+   "population": 1382334,
+   "flag": "🇨🇾"
+  },
+  {
+   "code": "CZ",
+   "name": "Czechia",
+   "population": 10527781,
+   "flag": "🇨🇿"
+  },
+  {
+   "code": "CI",
+   "name": "Côte d'Ivoire",
+   "population": 33494346,
+   "flag": "🇨🇮"
+  },
+  {
+   "code": "CD",
+   "name": "DR Congo",
+   "population": 116452162,
+   "flag": "🇨🇩"
+  },
+  {
+   "code": "DK",
+   "name": "Denmark",
+   "population": 6023520,
+   "flag": "🇩🇰"
+  },
+  {
+   "code": "DJ",
+   "name": "Djibouti",
+   "population": 1199459,
+   "flag": "🇩🇯"
+  },
+  {
+   "code": "DO",
+   "name": "Dominican Republic",
+   "population": 11609500,
+   "flag": "🇩🇴"
+  },
+  {
+   "code": "EC",
+   "name": "Ecuador",
+   "population": 18444506,
+   "flag": "🇪🇨"
+  },
+  {
+   "code": "EG",
+   "name": "Egypt",
+   "population": 120101175,
+   "flag": "🇪🇬"
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador",
+   "population": 6391253,
+   "flag": "🇸🇻"
+  },
+  {
+   "code": "GQ",
+   "name": "Equatorial Guinea",
+   "population": 1984468,
+   "flag": "🇬🇶"
+  },
+  {
+   "code": "ER",
+   "name": "Eritrea",
+   "population": 3682669,
+   "flag": "🇪🇷"
+  },
+  {
+   "code": "EE",
+   "name": "Estonia",
+   "population": 1331062,
+   "flag": "🇪🇪"
+  },
+  {
+   "code": "SZ",
+   "name": "Eswatini",
+   "population": 1269859,
+   "flag": "🇸🇿"
+  },
+  {
+   "code": "ET",
+   "name": "Ethiopia",
+   "population": 138902185,
+   "flag": "🇪🇹"
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji",
+   "population": 937282,
+   "flag": "🇫🇯"
+  },
+  {
+   "code": "FI",
+   "name": "Finland",
+   "population": 5621739,
+   "flag": "🇫🇮"
+  },
+  {
+   "code": "FR",
+   "name": "France",
+   "population": 66746401,
+   "flag": "🇫🇷"
+  },
+  {
+   "code": "GA",
+   "name": "Gabon",
+   "population": 2647399,
+   "flag": "🇬🇦"
+  },
+  {
+   "code": "GM",
+   "name": "Gambia",
+   "population": 2884079,
+   "flag": "🇬🇲"
+  },
+  {
+   "code": "GE",
+   "name": "Georgia",
+   "population": 3804642,
+   "flag": "🇬🇪"
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "population": 83644258,
+   "flag": "🇩🇪"
+  },
+  {
+   "code": "GH",
+   "name": "Ghana",
+   "population": 35697557,
+   "flag": "🇬🇭"
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "population": 9897115,
+   "flag": "🇬🇷"
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala",
+   "population": 18967978,
+   "flag": "🇬🇹"
+  },
+  {
+   "code": "GN",
+   "name": "Guinea",
+   "population": 15441993,
+   "flag": "🇬🇳"
+  },
+  {
+   "code": "GW",
+   "name": "Guinea-Bissau",
+   "population": 2297808,
+   "flag": "🇬🇼"
+  },
+  {
+   "code": "GY",
+   "name": "Guyana",
+   "population": 840890,
+   "flag": "🇬🇾"
+  },
+  {
+   "code": "HT",
+   "name": "Haiti",
+   "population": 12037506,
+   "flag": "🇭🇹"
+  },
+  {
+   "code": "HN",
+   "name": "Honduras",
+   "population": 11184760,
+   "flag": "🇭🇳"
+  },
+  {
+   "code": "HU",
+   "name": "Hungary",
+   "population": 9585818,
+   "flag": "🇭🇺"
+  },
+  {
+   "code": "IS",
+   "name": "Iceland",
+   "population": 402329,
+   "flag": "🇮🇸"
+  },
+  {
+   "code": "IN",
+   "name": "India",
+   "population": 1476625576,
+   "flag": "🇮🇳"
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia",
+   "population": 287886782,
+   "flag": "🇮🇩"
+  },
+  {
+   "code": "IR",
+   "name": "Iran",
+   "population": 93168497,
+   "flag": "🇮🇷"
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq",
+   "population": 48007437,
+   "flag": "🇮🇶"
+  },
+  {
+   "code": "IE",
+   "name": "Ireland",
+   "population": 5356950,
+   "flag": "🇮🇪"
+  },
+  {
+   "code": "IL",
+   "name": "Israel",
+   "population": 9647689,
+   "flag": "🇮🇱"
+  },
+  {
+   "code": "IT",
+   "name": "Italy",
+   "population": 58926166,
+   "flag": "🇮🇹"
+  },
+  {
+   "code": "JM",
+   "name": "Jamaica",
+   "population": 2833403,
+   "flag": "🇯🇲"
+  },
+  {
+   "code": "JP",
+   "name": "Japan",
+   "population": 122427731,
+   "flag": "🇯🇵"
+  },
+  {
+   "code": "JO",
+   "name": "Jordan",
+   "population": 11589532,
+   "flag": "🇯🇴"
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "population": 21083626,
+   "flag": "🇰🇿"
+  },
+  {
+   "code": "KE",
+   "name": "Kenya",
+   "population": 58636412,
+   "flag": "🇰🇪"
+  },
+  {
+   "code": "KW",
+   "name": "Kuwait",
+   "population": 5102773,
+   "flag": "🇰🇼"
+  },
+  {
+   "code": "KG",
+   "name": "Kyrgyzstan",
+   "population": 7400465,
+   "flag": "🇰🇬"
+  },
+  {
+   "code": "LA",
+   "name": "Laos",
+   "population": 7974017,
+   "flag": "🇱🇦"
+  },
+  {
+   "code": "LV",
+   "name": "Latvia",
+   "population": 1835935,
+   "flag": "🇱🇻"
+  },
+  {
+   "code": "LB",
+   "name": "Lebanon",
+   "population": 5897467,
+   "flag": "🇱🇧"
+  },
+  {
+   "code": "LS",
+   "name": "Lesotho",
+   "population": 2389336,
+   "flag": "🇱🇸"
+  },
+  {
+   "code": "LR",
+   "name": "Liberia",
+   "population": 5853949,
+   "flag": "🇱🇷"
+  },
+  {
+   "code": "LY",
+   "name": "Libya",
+   "population": 7539851,
+   "flag": "🇱🇾"
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania",
+   "population": 2797338,
+   "flag": "🇱🇹"
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg",
+   "population": 687448,
+   "flag": "🇱🇺"
+  },
+  {
+   "code": "MG",
+   "name": "Madagascar",
+   "population": 33522052,
+   "flag": "🇲🇬"
+  },
+  {
+   "code": "MW",
+   "name": "Malawi",
+   "population": 22785535,
+   "flag": "🇲🇼"
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia",
+   "population": 36385115,
+   "flag": "🇲🇾"
+  },
+  {
+   "code": "ML",
+   "name": "Mali",
+   "population": 25932275,
+   "flag": "🇲🇱"
+  },
+  {
+   "code": "MR",
+   "name": "Mauritania",
+   "population": 5461319,
+   "flag": "🇲🇷"
+  },
+  {
+   "code": "MX",
+   "name": "Mexico",
+   "population": 132997658,
+   "flag": "🇲🇽"
+  },
+  {
+   "code": "MD",
+   "name": "Moldova",
+   "population": 2961253,
+   "flag": "🇲🇩"
+  },
+  {
+   "code": "MN",
+   "name": "Mongolia",
+   "population": 3556798,
+   "flag": "🇲🇳"
+  },
+  {
+   "code": "ME",
+   "name": "Montenegro",
+   "population": 626233,
+   "flag": "🇲🇪"
+  },
+  {
+   "code": "MA",
+   "name": "Morocco",
+   "population": 38762441,
+   "flag": "🇲🇦"
+  },
+  {
+   "code": "MZ",
+   "name": "Mozambique",
+   "population": 36639851,
+   "flag": "🇲🇿"
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "population": 55184819,
+   "flag": "🇲🇲"
+  },
+  {
+   "code": "NA",
+   "name": "Namibia",
+   "population": 3153246,
+   "flag": "🇳🇦"
+  },
+  {
+   "code": "NP",
+   "name": "Nepal",
+   "population": 29629410,
+   "flag": "🇳🇵"
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "population": 18448775,
+   "flag": "🇳🇱"
+  },
+  {
+   "code": "NZ",
+   "name": "New Zealand",
+   "population": 5287479,
+   "flag": "🇳🇿"
+  },
+  {
+   "code": "NI",
+   "name": "Nicaragua",
+   "population": 7097329,
+   "flag": "🇳🇮"
+  },
+  {
+   "code": "NE",
+   "name": "Niger",
+   "population": 28814878,
+   "flag": "🇳🇪"
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria",
+   "population": 242431832,
+   "flag": "🇳🇬"
+  },
+  {
+   "code": "KP",
+   "name": "North Korea",
+   "population": 26633691,
+   "flag": "🇰🇵"
+  },
+  {
+   "code": "MK",
+   "name": "North Macedonia",
+   "population": 1804063,
+   "flag": "🇲🇰"
+  },
+  {
+   "code": "NO",
+   "name": "Norway",
+   "population": 5652989,
+   "flag": "🇳🇴"
+  },
+  {
+   "code": "OM",
+   "name": "Oman",
+   "population": 5671458,
+   "flag": "🇴🇲"
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "population": 259299791,
+   "flag": "🇵🇰"
+  },
+  {
+   "code": "PA",
+   "name": "Panama",
+   "population": 4625718,
+   "flag": "🇵🇦"
+  },
+  {
+   "code": "PG",
+   "name": "Papua New Guinea",
+   "population": 10947848,
+   "flag": "🇵🇬"
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay",
+   "population": 7095279,
+   "flag": "🇵🇾"
+  },
+  {
+   "code": "PE",
+   "name": "Peru",
+   "population": 34922148,
+   "flag": "🇵🇪"
+  },
+  {
+   "code": "PH",
+   "name": "Philippines",
+   "population": 117724471,
+   "flag": "🇵🇭"
+  },
+  {
+   "code": "PL",
+   "name": "Poland",
+   "population": 37843188,
+   "flag": "🇵🇱"
+  },
+  {
+   "code": "PT",
+   "name": "Portugal",
+   "population": 10395362,
+   "flag": "🇵🇹"
+  },
+  {
+   "code": "QA",
+   "name": "Qatar",
+   "population": 3173559,
+   "flag": "🇶🇦"
+  },
+  {
+   "code": "CG",
+   "name": "Republic of the Congo",
+   "population": 6637785,
+   "flag": "🇨🇬"
+  },
+  {
+   "code": "RO",
+   "name": "Romania",
+   "population": 18800605,
+   "flag": "🇷🇴"
+  },
+  {
+   "code": "RU",
+   "name": "Russia",
+   "population": 143394458,
+   "flag": "🇷🇺"
+  },
+  {
+   "code": "RW",
+   "name": "Rwanda",
+   "population": 14889693,
+   "flag": "🇷🇼"
+  },
+  {
+   "code": "SA",
+   "name": "Saudi Arabia",
+   "population": 35165787,
+   "flag": "🇸🇦"
+  },
+  {
+   "code": "SN",
+   "name": "Senegal",
+   "population": 19366548,
+   "flag": "🇸🇳"
+  },
+  {
+   "code": "RS",
+   "name": "Serbia",
+   "population": 6641964,
+   "flag": "🇷🇸"
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone",
+   "population": 8996745,
+   "flag": "🇸🇱"
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia",
+   "population": 5451342,
+   "flag": "🇸🇰"
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia",
+   "population": 2114573,
+   "flag": "🇸🇮"
+  },
+  {
+   "code": "SB",
+   "name": "Solomon Islands",
+   "population": 858288,
+   "flag": "🇸🇧"
+  },
+  {
+   "code": "SO",
+   "name": "Somalia",
+   "population": 20305907,
+   "flag": "🇸🇴"
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa",
+   "population": 65453084,
+   "flag": "🇿🇦"
+  },
+  {
+   "code": "KR",
+   "name": "South Korea",
+   "population": 51600388,
+   "flag": "🇰🇷"
+  },
+  {
+   "code": "SS",
+   "name": "South Sudan",
+   "population": 12436037,
+   "flag": "🇸🇸"
+  },
+  {
+   "code": "ES",
+   "name": "Spain",
+   "population": 47850793,
+   "flag": "🇪🇸"
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "population": 23348315,
+   "flag": "🇱🇰"
+  },
+  {
+   "code": "SD",
+   "name": "Sudan",
+   "population": 53282719,
+   "flag": "🇸🇩"
+  },
+  {
+   "code": "SR",
+   "name": "Suriname",
+   "population": 645256,
+   "flag": "🇸🇷"
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
+   "population": 10701047,
+   "flag": "🇸🇪"
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "population": 9007798,
+   "flag": "🇨🇭"
+  },
+  {
+   "code": "SY",
+   "name": "Syria",
+   "population": 26472497,
+   "flag": "🇸🇾"
+  },
+  {
+   "code": "TJ",
+   "name": "Tajikistan",
+   "population": 10978599,
+   "flag": "🇹🇯"
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania",
+   "population": 72563780,
+   "flag": "🇹🇿"
+  },
+  {
+   "code": "TH",
+   "name": "Thailand",
+   "population": 71559614,
+   "flag": "🇹🇭"
+  },
+  {
+   "code": "TL",
+   "name": "Timor-Leste",
+   "population": 1436923,
+   "flag": "🇹🇱"
+  },
+  {
+   "code": "TG",
+   "name": "Togo",
+   "population": 9930918,
+   "flag": "🇹🇬"
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad and Tobago",
+   "population": 1513268,
+   "flag": "🇹🇹"
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia",
+   "population": 12415138,
+   "flag": "🇹🇳"
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "population": 87926082,
+   "flag": "🇹🇷"
+  },
+  {
+   "code": "TM",
+   "name": "Turkmenistan",
+   "population": 7736632,
+   "flag": "🇹🇲"
+  },
+  {
+   "code": "UG",
+   "name": "Uganda",
+   "population": 52761469,
+   "flag": "🇺🇬"
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine",
+   "population": 39535849,
+   "flag": "🇺🇦"
+  },
+  {
+   "code": "AE",
+   "name": "United Arab Emirates",
+   "population": 11574682,
+   "flag": "🇦🇪"
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom",
+   "population": 69931528,
+   "flag": "🇬🇧"
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "population": 349035494,
+   "flag": "🇺🇸"
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay",
+   "population": 3382537,
+   "flag": "🇺🇾"
+  },
+  {
+   "code": "UZ",
+   "name": "Uzbekistan",
+   "population": 37724223,
+   "flag": "🇺🇿"
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu",
+   "population": 342564,
+   "flag": "🇻🇺"
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "population": 28633711,
+   "flag": "🇻🇪"
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam",
+   "population": 102177431,
+   "flag": "🇻🇳"
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
+   "population": 42961653,
+   "flag": "🇾🇪"
+  },
+  {
+   "code": "ZM",
+   "name": "Zambia",
+   "population": 22521915,
+   "flag": "🇿🇲"
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe",
+   "population": 17273580,
+   "flag": "🇿🇼"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+{% extends "base.html" %}
+{% block content %}<div class="card narrow"><h2>{{ title or "Not available" }}</h2><p class="muted">{{ message }}</p><a class="btn" href="{{ url_for('pages.home') }}">Back home</a></div>{% endblock %}

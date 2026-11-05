@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% set active = 'manual' %}
+{% block title %}Operations Manual · GEOPOLITICS{% endblock %}
+{% block content %}
+<div class="eyebrow">Operations Manual</div>
+<h1>How a campaign works</h1>
+<div class="prose">
+  <h2>Setup</h2>
+  <ul>
+    <li>Choose one nation. Nine more are drawn at random, so exactly ten nations take part.</li>
+    <li>Each nation starts with soldiers set by its population (inclusive upper bounds):</li>
+  </ul>
+  <table>
+    <tr><th>Population</th><th>Starting soldiers</th></tr>
+    <tr><td>Up to 5 million</td><td>1</td></tr><tr><td>Up to 10 million</td><td>2</td></tr>
+    <tr><td>Up to 25 million</td><td>3</td></tr><tr><td>Up to 50 million</td><td>4</td></tr>
+    <tr><td>Up to 75 million</td><td>5</td></tr><tr><td>Up to 100 million</td><td>6</td></tr>
+    <tr><td>Up to 125 million</td><td>7</td></tr><tr><td>Up to 150 million</td><td>8</td></tr>
+    <tr><td>Above 150 million</td><td>9</td></tr>
+  </table>
+  <p class="muted small">Population figures: {{ source.source }}, retrieved {{ source.retrieved }}.</p>
+  <ul><li>The order of play is random. Distance does not matter: any nation may attack any other.</li></ul>
+
+  <h2>Turns and reinforcements</h2>
+  <ul>
+    <li>One participant plays at a time. A round ends when every active participant has had a turn.</li>
+    <li>There is no bonus in round 1. From round 2, at the start of each turn you receive 2 soldiers for every country you control, and place them on your countries.</li>
+    <li>On your turn you may attack one target, or skip. Only one attack may be started per turn.</li>
+    <li>A nation with no countries is eliminated and leaves the turn order.</li>
+  </ul>
+
+  <h2>Attacking</h2>
+  <ul>
+    <li>The launching country needs at least 2 soldiers; one always stays behind.</li>
+    <li>Each phase, both sides roll <b>min(attacker soldiers − 1, defender soldiers)</b> dice. There is no cap.</li>
+    <li>Dice are matched in the order rolled (first with first, and so on). The higher die wins and the other side loses one soldier. Equal dice cause no loss.</li>
+    <li>You may keep rolling (<i>Continue Attack</i>) or <i>Stop Attack</i>, which ends your turn. A battle also ends when the attacker is down to 1 soldier or the defender reaches 0.</li>
+    <li>On conquest the country changes hands and receives <b>max(2, ⌊original soldier value ÷ 2⌋)</b> soldiers, once. A newly conquered country can launch attacks from your next turn.</li>
+  </ul>
+
+  <h2>Moving soldiers</h2>
+  <ul><li>When no attack is in progress you may move soldiers between countries you control. The origin country keeps at least 1 soldier.</li></ul>
+
+  <h2>Opponents</h2>
+  <ul>
+    <li>All nine opponents use one strategy: they weigh each possible attack by its exact win probability and the prize, attack only when odds are good, stop when the odds collapse, place reinforcements where they add the most attacking value or shore up weak garrisons, and sometimes move soldiers to a thin garrison.</li>
+    <li>Every decision, with its reason, appears in the event feed. <i>Fast-forward playback</i> speeds it up but still shows every event.</li>
+  </ul>
+
+  <h2>Commentary</h2>
+  <ul><li>Battle commentary is written by an AI model from the recorded battle facts. It never affects dice, losses or ownership. If the AI is unavailable, an automated summary is shown and labelled as such.</li></ul>
+
+  <h2>Winning, watching</h2>
+  <ul>
+    <li>Control all ten countries to win. If an opponent does it first, the campaign is lost.</li>
+    <li>Share the spectator link from the War Room. Anyone can watch, but only the signed-in owner can play.</li>
+  </ul>
+</div>
+{% endblock %}

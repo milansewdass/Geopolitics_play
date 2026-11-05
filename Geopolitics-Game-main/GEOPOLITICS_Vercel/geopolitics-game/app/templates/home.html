@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="eyebrow">Strategy of nations</div>
+  <h1>GEOPOLITICS</h1>
+  <p>Take command of one nation and face nine rivals across a real world map. Soldiers come from population, battles from dice, and every move your opponents make is shown and explained. Own all ten countries to win.</p>
+  <div class="actions">
+    <a class="btn primary" href="{{ url_for('pages.new_game_page') }}">New Game</a>
+    <a class="btn" href="{{ url_for('pages.war_room_latest') }}">Continue Game</a>
+    <a class="btn" href="{{ url_for('pages.manual') }}">Full manual</a>
+  </div>
+</section>
+<section>
+  <div class="eyebrow">How to play</div>
+  <div class="how">
+    <div class="card"><b>1 · CHOOSE</b><p class="muted">Pick your nation. Nine more are drawn at random; each starts with soldiers set by its population.</p></div>
+    <div class="card"><b>2 · REINFORCE</b><p class="muted">From round 2 every country you hold earns 2 new soldiers at the start of your turn.</p></div>
+    <div class="card"><b>3 · ATTACK</b><p class="muted">Once per turn, strike any enemy from a country with 2+ soldiers. Matched dice decide each phase.</p></div>
+    <div class="card"><b>4 · CONQUER</b><p class="muted">Hold all ten countries to win. Anyone can watch a campaign through its share link.</p></div>
+  </div>
+</section>
+{% endblock %}
